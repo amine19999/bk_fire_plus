@@ -78,7 +78,6 @@ def draw_pred(args, frame, pred, fps_frame):
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
     return frame
 
-
 ##########################################################################
 # parse command line arguments
 parser = argparse.ArgumentParser()
@@ -262,3 +261,4 @@ if  args.webcam:
                     args.fullscreen = not(args.fullscreen)
 
         cv2.destroyAllWindows()
+        
